@@ -1,0 +1,34 @@
+div.sphinxsidebar {
+	position: sticky;
+	width: 100%;
+}
+
+div.sphinxsidebar a {
+	border-bottom: none;
+	font-size: 30px !important;
+	color: {{ theme_anchor }};
+	padding: 8px;
+}
+
+div.sphinxsidebar a:hover {
+	border-bottom: none;
+	color: {{ theme_anchor_hover_fg }};
+	background-color: {{ theme_anchor_hover_bg }};
+}
+
+div.sphinxsidebar ul{
+}
+
+div.sphinxsidebar li{
+	display: block;
+	float: left;
+}
+
+div.bodywrapper {
+	margin: 0 0 0 0;
+}
+
+#searchbox {
+	display: block;
+	float: right;
+}

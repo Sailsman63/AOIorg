@@ -1,0 +1,21 @@
+<ul>
+  <li>
+    <a href="{{ pathto(master_doc) }}">
+      <img class="logo" src="{{ pathto('_static/' ~ theme_logo, 1) }}"
+           alt="{{ project }} Project Logo"/>
+      {% if theme_logo_name|lower == 'true' %}
+      <h1 class="logo logo-name">{{ project }}</h1>
+      {% endif %}
+    </a>
+  </li>
+  <li>
+    {{ toctree(includehidden=theme_globaltoc_includehidden, collapse=theme_globaltoc_collapse, maxdepth=theme_globaltoc_maxdepth) }}
+  </li>
+  <li id="searchbox" role="search">
+    <form class="search" action="{{ pathto('search') }}" method="get">
+      <input type="text" name="q" placeholder="Search.." aria-labelledby="searchlabel" />
+      <input type="submit" value="{{ _('Go') }}" />
+    </form>
+  </li>
+</ul>
+
