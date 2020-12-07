@@ -59,8 +59,9 @@ html_sidebars = {'**': ['about.html', 'globaltoc.html', 'searchbox.html']}
 
 html_theme_options = {
         'fixed_sidebar': 'true',
+        'logo': 'aoi-logo1.png',
         'logo_name': 'false',
         'font_family': 'sans',
-        'page_width': '1200px',
+        'page_width': '100%',
         'anchor_hover_fg': 'white'
         }
