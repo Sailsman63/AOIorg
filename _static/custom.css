@@ -1,0 +1,51 @@
+div.document {
+	margin-top: 0px;
+}
+
+div.sphinxsidebar {
+	background-image: url("../_images/empress.jpg");
+	background-origin: border-box;
+	background-clip: border-box;
+	background-position: 0% 45%;
+	background-size: cover;
+	position: sticky;
+	width: 100%;
+	top: -175px;
+	margin-bottom: 30px;
+}
+
+div.sphinxsidebar a {
+	border-bottom: none;
+	font-size: 30px !important;
+	color: #DDD;
+	padding: 8px;
+}
+
+div.sphinxsidebar a:hover {
+	border-bottom: none;
+	color: white;
+	background-color: #EAEAEA;
+}
+
+div.sphinxsidebar ul {
+}
+
+div.sphinxsidebar li {
+	display: block;
+	float: left;
+}
+
+div.documentwrapper {
+	max-width: 850px;
+	margin: auto;
+	float: none;
+}
+
+div.bodywrapper {
+	margin: 0 0 0 0;
+}
+
+#searchbox {
+	display: block;
+	float: right;
+}
